@@ -33,11 +33,11 @@ useEffect(()=>{
   }
   return (
     <div className="App">
-     <h1>hello all</h1>
+     <h1>TO-DO </h1>
     
      <form>
      <FormControl>
-        <InputLabel>WRITE A TASK </InputLabel>
+        <InputLabel>enter a task </InputLabel>
         <Input value={input} onChange={task=>setinput(task.target.value)}/>
      </FormControl>
       {/* <input value={input} onChange={task=>setinput(task.target.value)}/>

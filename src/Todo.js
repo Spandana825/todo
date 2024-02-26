@@ -39,7 +39,7 @@ function Todo(props) {
       open={open}
       onClose={e=>setopen(false)}>
         <div className={classes.paper}>
-          <h1>update</h1>
+          <h6>update</h6>
           <input placeholder={props.todo.todo} value={input} onChange={event=>setinput(event.target.value)}/>
         <Button onClick={updatetodo}>update</Button>
         </div>
