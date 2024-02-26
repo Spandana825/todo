@@ -50,7 +50,7 @@ function Todo(props) {
 
                 
             </ListItem>
-            <Button onClick={e=>setopen(true)}>edit</Button>
+            <Button onClick={e=>setopen(true)}>Edit</Button>
             <Button onClick={event=>db.collection('todo').doc(props.todo.id).delete()}>delete me</Button>
         </List>
       {/* <li>{props.text}</li> */}
